@@ -35,6 +35,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 4000012373261662}
   - 212: {fileID: 212000010136616612}
+  - 61: {fileID: 61000013720588734}
   m_Layer: 0
   m_Name: fences_factory_shrubs_2
   m_TagString: Untagged
@@ -69,6 +70,20 @@ Transform:
   - {fileID: 4000012373261662}
   m_Father: {fileID: 0}
   m_RootOrder: 0
+--- !u!61 &61000013720588734
+BoxCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000014093948216}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
 --- !u!212 &212000010136616612
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -98,7 +113,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1744447975
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300004, guid: 0b0f80ba84fc3466283b80ff6d94d39f, type: 3}
+  m_Sprite: {fileID: 21300004, guid: 76bc727280bb6439eaca583051c04bf2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
