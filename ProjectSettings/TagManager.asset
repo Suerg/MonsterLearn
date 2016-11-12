@@ -41,15 +41,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: EdgeTile
-    uniqueID: 2550519321
-    locked: 0
-  - name: CornerTile
-    uniqueID: 2342729821
-    locked: 0
-  - name: Exit
-    uniqueID: 1525878295
-    locked: 0
-  - name: centerTile
+  - name: Item
     uniqueID: 1487966121
+    locked: 0
+  - name: Floor
+    uniqueID: 1525878295
     locked: 0
