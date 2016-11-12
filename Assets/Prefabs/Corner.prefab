@@ -21,7 +21,7 @@ GameObject:
   - 4: {fileID: 4000012907986044}
   - 212: {fileID: 212000013245318426}
   - 61: {fileID: 61000012540273748}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: fences_factory_shrubs_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36,7 +36,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 4000012052358308}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Corner
   m_TagString: Untagged
   m_Icon: {fileID: 0}

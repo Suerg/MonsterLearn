@@ -20,7 +20,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 4000010402918164}
   m_Layer: 0
-  m_Name: centerGreenFloor2
+  m_Name: CenterGreenFloor2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

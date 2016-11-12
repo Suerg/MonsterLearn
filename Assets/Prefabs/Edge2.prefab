@@ -19,7 +19,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 4000012899330864}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Edge2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36,7 +36,7 @@ GameObject:
   - 4: {fileID: 4000013688664276}
   - 212: {fileID: 212000013621177062}
   - 61: {fileID: 61000013256344860}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: fences_factory_shrubs_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
