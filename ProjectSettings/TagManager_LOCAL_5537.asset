@@ -3,9 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - Robot
-  - Wall
+  tags: []
   layers:
   - Default
   - TransparentFX
@@ -15,7 +13,7 @@ TagManager:
   - UI
   - 
   - 
-  - BlockingLayer
+  - 
   - 
   - 
   - 
@@ -43,9 +41,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Floor
-    uniqueID: 2550519321
-    locked: 0
   - name: Item
-    uniqueID: 2342729821
+    uniqueID: 4093587799
+    locked: 0
+  - name: Floor
+    uniqueID: 3211123407
     locked: 0

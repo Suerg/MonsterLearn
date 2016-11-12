@@ -5,7 +5,6 @@ TagManager:
   serializedVersion: 2
   tags:
   - Robot
-  - Wall
   layers:
   - Default
   - TransparentFX
