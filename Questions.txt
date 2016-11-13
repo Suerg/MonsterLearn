@@ -60,7 +60,7 @@ endQ
 a) True
 b) False
 b
-You canít perform mathematical operation on string even if string looks like integers.
+You can‚Äôt perform mathematical operation on string even if string looks like integers.
 endA
 
 What is the output of this expression, 3*1**3?
@@ -124,10 +124,10 @@ matched = re.match(r'(.*) (.*?) (.*)', sentence)
 print(matched.group(2))
 endQ
 10
-a) ëareí
-b) ëweí
-c) ëhumansí
-d) ëwe are humansí
+a) ‚Äòare‚Äô
+b) ‚Äòwe‚Äô
+c) ‚Äòhumans‚Äô
+d) ‚Äòwe are humans‚Äô
 c
 This function returns the particular subgroup.
 endA
@@ -174,12 +174,12 @@ for i in x:
 print(x)
 endQ
 20
-a) [ëabí, ëcdí] 
-b) [ëABí, ëCDí] 
+a) [‚Äòab‚Äô, ‚Äòcd‚Äô] 
+b) [‚ÄòAB‚Äô, ‚ÄòCD‚Äô] 
 c) [None, None]
 d) none of the mentioned
 a
-The function upper() does not modify a string in place, it returns a new string which isnít being stored anywhere.
+The function upper() does not modify a string in place, it returns a new string which isn‚Äôt being stored anywhere.
 endA
 
 What is the output of the following?
@@ -189,9 +189,9 @@ for i in x:
 print(x)
 endQ
 20
-a) [ëABí, ëCDí]
-b) [ëabí, ëcdí, ëABí, ëCDí]
-c) [ëabí, ëcdí]
+a) [‚ÄòAB‚Äô, ‚ÄòCD‚Äô]
+b) [‚Äòab‚Äô, ‚Äòcd‚Äô, ‚ÄòAB‚Äô, ‚ÄòCD‚Äô]
+c) [‚Äòab‚Äô, ‚Äòcd‚Äô]
 d) none of the mentioned
 d
 The loop does not terminate as new elements are being added to the list in each iteration.
@@ -211,7 +211,7 @@ b) 1 2 3
 c) error
 d) none of the mentioned
 c
-SyntaxError, there shouldnít be a space between + and = in +=.
+SyntaxError, there shouldn‚Äôt be a space between + and = in +=.
 endA
 
 What is the output of the following?
@@ -242,10 +242,10 @@ endQ
 20
 a) 5 6 7 8
 b) 5 6 7 8 9
-c) 5 6 7 8 9 10 11 12 13 14 15 Ö.
+c) 5 6 7 8 9 10 11 12 13 14 15 ‚Ä¶.
 d) error
 d
-9 isnít allowed in an octal number.
+9 isn‚Äôt allowed in an octal number.
 endA
 
 What is the output of the following?
@@ -259,8 +259,8 @@ endQ
 20
 a) 1
 b) 1 2
-c) 1 2 3 4 5 6 Ö
-d) 1 3 5 7 9 11 Ö
+c) 1 2 3 4 5 6 ‚Ä¶
+d) 1 3 5 7 9 11 ‚Ä¶
 d
 The loop does not terminate since i is never an even number.
 endA
@@ -276,8 +276,8 @@ endQ
 20
 a) 1
 b) 1 2
-c) 1 2 3 4 5 6 Ö
-d) 1 3 5 7 9 11 Ö
+c) 1 2 3 4 5 6 ‚Ä¶
+d) 1 3 5 7 9 11 ‚Ä¶
 d
 The loop does not terminate since i is never an even number.
 endA
@@ -292,8 +292,8 @@ while False:
 endQ
 20
 a) 1
-b) 1 3 5 7 Ö
-c) 1 2 3 4 Ö
+b) 1 3 5 7 ‚Ä¶
+c) 1 2 3 4 ‚Ä¶
 d) none of the mentioned
 d
 Control does not enter the loop because of False.
@@ -311,7 +311,7 @@ b) False
 c) None
 d) none of the mentioned
 d
-SyntaxError, True is a keyword and itís value cannot be changed.
+SyntaxError, True is a keyword and it‚Äôs value cannot be changed.
 endA
 
 What is the output of the following?
@@ -332,8 +332,7 @@ d) none of the mentioned
 View Answer
 b
 The else part is not executed if control breaks out of the loop.
-endQ
-10
+endA
 
 What is the output of the following?
 i = 0
@@ -360,7 +359,7 @@ endQ
 10
 a) a b c d e f
 b) abcdef
-c) i i i i i i Ö
+c) i i i i i i ‚Ä¶
 d) error
 d
 NameError, i is not defined.
@@ -368,4 +367,148 @@ endA
 endT
 
 Strings
+What is the output when following statement is executed ?
+>>>"a"+"bc"
+endQ
+10
+a) a
+b) bc
+c) bca
+d) abc
+d
++ operator is concatenation operator.
+endA
 
+What is the output when following statement is executed ?
+>>>"abcd"[2:]
+endQ
+10
+a) a
+b) ab
+c) cd
+d) dc
+c
+Slice operation is performed on string.
+endA
+
+The output of executing string.ascii_letters can also be achieved by:
+endQ
+10
+a) string.ascii_lowercase_string.digits
+b) string.ascii_lowercase+string.ascii_upercase
+c) string.letters
+d) string.lowercase_string.upercase
+b
+Execute in shell and check.
+endA
+
+What is the output when following code is executed ?
+>>> str1 = 'hello'
+>>> str2 = ','
+>>> str3 = 'world'
+>>> str1[-1:]
+endQ
+15
+a) olleh
+b) hello
+c) h
+d) o
+d
+-1 corresponds to the last index.
+endA
+
+What is the output when following code is executed ?
+>>>print r"\nhello"
+The output is
+endQ
+15
+a) a new line and hello
+b) \nhello
+c) the letter r and then hello
+d) Error
+b
+When prefixed with the letter ‚Äòr‚Äô or ‚ÄòR‚Äô a string literal becomes a raw string and the escape sequences such as \n are not converted.
+endA
+
+What is the output when following statement is executed ?
+>>>print 'new' 'line'
+endQ
+10
+a) Error
+b) Output equivalent to print ‚Äònew\nline‚Äô
+c) newline
+d) new line
+c
+String literals seperated by white space are allowed. They are concatenated.
+endA
+
+What is the output when following statement is executed ?
+>>>print '\x97\x98'
+endQ
+10
+a) Error
+b) 97
+98
+c) _~
+d) \x97\x98
+c
+\x is an escape sequence that means the following 2 digits are a hexadicmal number encoding a character.
+endA
+
+What is the output when following code is executed ?
+>>>str1="helloworld"
+>>>str1[::-1]
+endQ
+15
+a) dlrowolleh
+b) hello
+c) world
+d) helloworld
+a
+Execute in shell to verify.
+endA
+
+print 0xA + 0xB + 0xC :
+endQ
+10
+a) 0xA0xB0xC
+b) Error
+c) 0x22
+d) 33
+d
+0xA and 0xB and 0xC are hexadecimal integer literals representing the decimal values 10,11 and 12 respectively. There sum is 33.
+endA
+
+What is ‚ÄúHello‚Äù.replace(‚Äúl‚Äù, ‚Äúe‚Äù)
+endQ
+10
+a) Heeeo
+b) Heelo
+c) Heleo
+d) None
+a
+Execute in shell to verify.
+endA
+
+Suppose i is 5 and j is 4, i + j is same as
+endQ
+10
+a) i.__add(j)
+b) i.__add__(j)
+c) i.__Add(j)
+d) i.__ADD(j)
+b
+Execute in shell to verify.
+endA
+
+Suppose x is 345.3546, what is format(x, ‚Äú10.3f‚Äù) (_ indicates space)
+endQ
+10
+a) __345.355
+b) ___345.355
+c) ____345.355
+d) _____345.354
+b
+Execute in the shell to verify.
+endA
+endT
