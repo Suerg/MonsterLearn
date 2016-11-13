@@ -651,3 +651,154 @@ b
 Elements are compared one by one.
 endA
 endT
+
+Files and Functions
+o open a file c:\scores.txt for reading, we use
+endQ
+10
+a) infile = open(“c:\scores.txt”, “r”)
+b) infile = open(“c:\\scores.txt”, “r”)
+c) infile = open(file = “c:\scores.txt”, “r”)
+d) infile = open(file = “c:\\scores.txt”, “r”)
+b
+Execute help(open) to get more details.
+endA
+
+o open a file c:\scores.txt for writing, we use
+endQ
+10
+a) outfile = open(“c:\scores.txt”, “w”)
+b) outfile = open(“c:\\scores.txt”, “w”)
+c) outfile = open(file = “c:\scores.txt”, “w”)
+d) outfile = open(file = “c:\\scores.txt”, “w”)
+b
+w is used to indicate that file is to be written to.
+endA
+
+To open a file c:\scores.txt for appending data, we use
+endQ
+10
+a) outfile = open(“c:\\scores.txt”, “a”)
+b) outfile = open(“c:\\scores.txt”, “rw”)
+c) outfile = open(file = “c:\scores.txt”, “w”)
+d) outfile = open(file = “c:\\scores.txt”, “w”)
+a
+a is used to indicate that data is to be apended.
+endA
+
+To read two characters from a file object infile, we use
+endQ
+10
+a) infile.read(2)
+b) infile.read()
+c) infile.readline()
+d) infile.readlines()
+a
+Execute in the shell to verify.
+endA
+
+To read the entire remaining contents of the file as a string from a file object infile, we use
+endQ
+10
+a) infile.read(2)
+b) infile.read()
+c) infile.readline()
+d) infile.readlines()
+b
+read function is used to read all the lines in a file.
+endA
+
+What is the output?
+f = None
+for i in range (5):
+    with open("data.txt", "w") as f:
+        if i > 2:
+            break
+print f.closed
+endQ
+15
+a) True
+b) False
+c) None
+d) Error
+a
+The WITH statement when used with open file guarantees that the file object is closed when the with block exits.
+endA
+
+Which of the following is the use of function in python?
+endQ
+10
+a) Functions are reusable pieces of programs
+b) Functions don’t provide better modularity for your application
+c) you can’t also create your own functions
+d) All of the mentioned
+a
+Functions are reusable pieces of programs. They allow you to give a name to a block of statements, allowing you to run that block using the specified name anywhere in your program and any number of times.
+endA
+
+Which keyword is use for function?
+endQ
+10
+a) Fun
+b) Define
+c) Def
+d) Function
+c
+Explanation: None.
+endA
+
+n file handling, what does this terms means “r, a”?
+endQ
+10
+a) read, append
+b) append, read
+c) All of the mentioned
+d) None of the the mentioned
+a
+r- reading, a-appending.
+endA
+
+What is the use of “w” in file handling?
+endQ
+10
+a) Read
+b) Write
+c) Append
+d) None of the the mentioned
+b
+This opens the file for writing. It will create the file if it doesn’t exist, and if it does, it will overwrite it.
+endA
+
+What is the use of “a” in file handling?
+endQ
+10
+a) Read
+b) Write
+c) Append
+d) None of the the mentioned
+c
+This opens the fhe file in appending mode. That means, it will be open for writing and everything will be written to the end of the file.
+endA
+
+Which function is used to read all the characters?
+endQ
+10
+a) Read()
+b) Readcharacters()
+c) Readall()
+d) Readchar()
+a
+The read function reads all characters fh = open(“filename”, “r”)
+endA
+
+Which function is used to close a file in python?
+endQ
+10
+a) Close()
+b) Stop()
+c) End()
+d) Closefile()
+a
+f.close()to close it and free up any system resources taken up by the open file.
+endA
+endT
