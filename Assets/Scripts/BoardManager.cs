@@ -21,7 +21,7 @@ public class BoardManager : MonoBehaviour {
 	public int rows = 8;
 	public int columns = 8;
 	public Count wallCount = new Count(5, 9);
-	public GameObject exit;
+	//public GameObject exit;
 	public GameObject[] floorTiles;
 	public GameObject[] wallTiles;
 	public GameObject[] enemyTiles;
@@ -45,6 +45,7 @@ public class BoardManager : MonoBehaviour {
 
 	void BoardSetup()
 	{
+/*
 		boardHolder = new GameObject ("Board").transform;
 
 		for (int x = -1; x < columns + 1; x++) 
@@ -59,6 +60,7 @@ public class BoardManager : MonoBehaviour {
 				instance.transform.SetParent (boardHolder);
 			}
 		}
+*/
 	}
 
 	Vector3 RandomPosition()
@@ -87,6 +89,6 @@ public class BoardManager : MonoBehaviour {
 		LayoutObjectsAt (wallTiles, wallCount.minimum, wallCount.maximum);
 		int enemyCount = (int)Mathf.Log (level, 2f);
 		LayoutObjectsAt (enemyTiles, enemyCount, enemyCount);
-		Instantiate (exit, new Vector3 (columns - 1, rows - 1, 0f), Quaternion.identity);
+		// Instantiate (exit, new Vector3 (columns - 1, rows - 1, 0f), Quaternion.identity);
 	}
 }

@@ -6,10 +6,11 @@ public class GameManager : MonoBehaviour {
 
 	public static GameManager instance = null;
 	public BoardManager boardScript;
+	[HideInInspector] public bool playersTurn = true;
+	int tick = 0;
 
 	// Use this for initialization
 	void Awake () {
-
 		if (instance == null)
 			instance = this;
 		else
@@ -23,11 +24,15 @@ public class GameManager : MonoBehaviour {
 
 	void InitGame()
 	{
-		//boardScript.SetupScene (level);
+		boardScript.SetupScene (1);
 	}
 	// Update is called once per frame
 	void Update () 
 	{
+		tick++;
+
+		if (!playersTurn && tick % 2 == 0)
+			playersTurn = true;	
 	}
 
 }
