@@ -22,6 +22,8 @@ GameObject:
   - 212: {fileID: 212000012790392526}
   - 95: {fileID: 95000011397394624}
   - 114: {fileID: 114000011002573704}
+  - 61: {fileID: 61000013374663532}
+  - 50: {fileID: 50000012089631610}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -42,6 +44,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+--- !u!50 &50000012089631610
+Rigidbody2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012811338080}
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!61 &61000013374663532
+BoxCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012811338080}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 0.9, y: 0.9}
 --- !u!95 &95000011397394624
 Animator:
   serializedVersion: 3
@@ -73,7 +106,7 @@ MonoBehaviour:
   moveTime: 0.2
   blockingLayer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 256
   restartLevelDelay: 1
 --- !u!212 &212000012790392526
 SpriteRenderer:
